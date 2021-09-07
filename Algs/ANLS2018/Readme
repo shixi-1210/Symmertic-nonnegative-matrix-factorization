@@ -1,0 +1,11 @@
+This package contains the source files for generating Figure 4 a(1)-a(2) in the following paper
+
+Z. Zhu, X. Li, K. Liu, Q. Li, ‘‘Dropping Symmetry for Fast Symmetric Nonnegative Matrix Factorization,’’ in Neural Information Processing Systems (NIPS), December 2018. 
+
+In order to generate Figure 4 a(a)-a(2), run Demo_image_clustering.m’, Before running, please download ‘dist2.m’ and ‘scale_dist3_knn.m’ from https://github.com/andybaoxv/symnmf, and ‘nnlsm_blockpivot.m’ from https://github.com/kimjingu/nonnegfac-matlab/blob/master/nnlsm_blockpivot.m. The codes for SymANLS and SymHALS are already included.
+
+Disclaimer: our code ‘HALS_sparse.m’ is based on the prototype downloaded from https://www.dropbox.com/s/eo7vwoz593ytyis/Acc_MU_HALS_PG.zip?dl=0. 
+
+The database ORL in this package is downloaded from https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html. For different database, tuning the parameter lambda may lead to better performance. 
+
+
